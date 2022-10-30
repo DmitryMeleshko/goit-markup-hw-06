@@ -349,7 +349,7 @@ body{
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
@@ -634,7 +634,7 @@ body{
     letter-spacing: 0.03em;
     margin-bottom: 12px;
 } 
-.close-button{
+.close-button{   
     position: absolute;
     top: 8px;
     right: 8px;
@@ -642,25 +642,25 @@ body{
     border: 0px;
     background-color: #ffffff;
 }
-.button-icon{
+.button-icon{    
     width: 30px;
     height: 30px;
+    padding: 5px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition-duration: 250ms;   
+    cursor: pointer;
 }
 .button-icon:hover{
     fill: var(--color-logo);
 }
-.close-icon{
-    width: 11px;
-    height: 11px;
-}
+
 .form-field{
     position: relative;
 }
 .form-lable{
     display: block;
+    color: #757575;
     margin-top: 10px;
     margin-bottom: 4px;
     font-size: 12px;
@@ -692,8 +692,9 @@ body{
     fill: currentColor;
 }
 .form-input{
+    padding-left: 40px;
     width: 100%;
-    padding: 14px 15px 14px 35px;
+    height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;    
